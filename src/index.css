@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.wrapper , .textInput{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wrapper {
+  height: 100vh;
+}
+
+.wrapper > h2{
+  margin-bottom: 80px;
+}
+
+.textInput > div , .characterCount {
+  margin-top: 40px;
+}
+
+.textInput > input{
+  line-height: 2;
+}

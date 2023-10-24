@@ -6,9 +6,12 @@ import CharacterCounter from './components/CharacterCounter';
 
 const App =() => {
   return (
-    <RecoilRoot>
-      <CharacterCounter />
-    </RecoilRoot>
+    <div  class='wrapper'>
+      <h2>React Recoil Demo</h2>
+      <RecoilRoot>
+        <CharacterCounter />
+      </RecoilRoot>
+    </div>
   );
 }
 

@@ -5,7 +5,7 @@ import { charCountState } from '../recoil_state';
 
 const CharacterCount = () => {
   const count = useRecoilValue(charCountState);
-  return <>Character Count: {count}</>;
+  return <div class='characterCount'>Character Count: {count}</div>;
 }
 
 export default CharacterCount
