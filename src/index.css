@@ -12,7 +12,7 @@ code {
     monospace;
 }
 
-.wrapper , .textInput{
+.wrapper , .textInput {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -23,7 +23,7 @@ code {
   height: 100vh;
 }
 
-.wrapper > h2{
+.wrapper > h2 {
   margin-bottom: 80px;
 }
 
@@ -31,6 +31,6 @@ code {
   margin-top: 40px;
 }
 
-.textInput > input{
+.textInput > input {
   line-height: 2;
 }

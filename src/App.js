@@ -3,11 +3,12 @@ import {
   RecoilRoot,
 } from 'recoil';
 import CharacterCounter from './components/CharacterCounter';
+import Header2Text from './components/Header2Text';
 
 const App =() => {
   return (
-    <div  class='wrapper'>
-      <h2>React Recoil Demo</h2>
+    <div class='wrapper'>
+      <Header2Text/>
       <RecoilRoot>
         <CharacterCounter />
       </RecoilRoot>
