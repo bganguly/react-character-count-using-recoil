@@ -11,7 +11,7 @@ const TextInput = () => {
   };
 
   return (
-    <div class='textInput'>
+    <div className='textInput'>
       <input type="text" value={text} onChange={onChange} />
       <div>Echo: {text}</div>
     </div>
